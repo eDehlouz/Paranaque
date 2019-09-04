@@ -1,0 +1,460 @@
+html, body {
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h4 {
+  padding-bottom: 1.5rem;
+}
+
+/* /---Colours--/ */
+
+.BgCol1{
+  background-color: #50AD55;
+}
+
+.BgCol2{
+  background-color: #85BE5B;
+}
+/* --------General Class---------- */
+
+
+.main {
+  height: 100%;
+  padding-bottom: 5.8%;
+
+}
+
+.subTitle {
+  color: #1F8425;
+  font-weight: 700;
+}
+
+.noticeText {
+  font-size: 24px;
+  padding-top: 1.5rem;
+}
+
+.btn {
+  margin: 1.5em 1em 0 0;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 700;
+  border-width: thick;
+  padding: 7px 50px 7px;
+}
+
+
+.relative /*Background Img Positioning*/
+{
+  position:relative;
+  z-index: 0;
+}
+
+
+/* ------------TITLE--------------- */
+.HPimg {
+  width: 930px;
+  position: absolute;
+  right: 0;
+  bottom:-98px;
+}
+
+
+/* navbar */
+.nav-item {
+  padding-left: 1.5rem;
+  font-size: 1.2rem;
+}
+.navbar-brand{
+  width: 50%;
+}
+
+.logoTop {
+  width: 400px;
+}
+
+/* intro elements */
+.titleBox {
+  padding: 10% 0 0;
+  width: 700px;
+  z-index: 1;
+  position: relative;
+}
+
+
+
+.title-msg {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-shadow: #366d39 0.1em 0.1em 0.2em;
+  z-index: 1;
+}
+
+.intro-text {
+  margin-top: 1.5em;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* ----------FEATURES----------- */
+.feature.subTitle{
+  margin-bottom: 2.5rem;
+}
+
+.featureBox {
+  padding: 3rem 0 2rem;
+  height: 100%;
+}
+
+.feature-card {
+  margin: 2.5% 0 ;
+  width: 100%;
+  height: 200px;
+  padding: 1.2rem 1.5rem;
+  box-shadow: grey 0.1em 0.1em 0.2em;
+  color: #5F5F5F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featIcon {
+  float: left;
+  margin-right: 2rem;
+  margin-top: 0.6rem;
+  width: 8rem;
+}
+
+.card-title {
+  font-weight: 700;
+  /* margin-top: 4%; */
+}
+
+.card-text {
+  font-size: 16px;
+  margin-right: 8%;
+  color: #5F5F5F;
+}
+
+
+/* ---------- Violation ---------------*/
+
+#violation .container, #plate .container {
+  margin:0;
+  max-width: 100%;
+
+}
+
+
+
+
+.violationBox {
+  color: #fff;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10rem;
+  margin-right: 5rem;
+  height: 100%
+}
+
+.inputBox {
+
+  padding: 7.5rem 0;
+  background-color: #FcFcFc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#plate .inputBox{
+  padding: 11.5rem 0;
+}
+
+/* .inputBox .container{
+  align-items: center;
+} */
+
+
+
+.inputTitle {
+  color: #50AD55;
+}
+
+.inputField {
+  margin: 1rem 0 4rem;
+  width: 70%;
+  padding: 0.6rem 0.6rem;
+  background-color: #EDEDED;
+  text-align: center;
+  border-color: #AFAFAF;
+  border-style: solid;
+  border-width: medium;
+}
+
+.btn-success {
+  background-color: #50AD55;
+  border-style: none;
+  padding: 0.8rem 3.5rem;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+/* --------------PLATE---------- */
+.plate {
+  background-color: #85BE5B;
+}
+
+.plate:hover {
+  background-color: #50AD55;
+}
+
+.inputTitleP {
+  color: #85BE5B;
+}
+
+/* ---------NEWS----------- */
+/* .carousel-item
+{
+  text-align: center;
+} */
+.carousel-inner h5 {
+  padding-bottom: 1.5rem;
+}
+
+.card.press {
+  margin: 5% 10%;
+  width: 80%;
+  height: auto;
+  padding: 2rem 1.5rem;
+  box-shadow: #DFDFDF 0.2em 0.2em 0.3em;
+  color: #5F5F5F;
+}
+
+
+
+/* --------FOOTER-------- */
+
+
+.footText {
+  font-size: 13px;
+}
+
+#features {}
+
+#title {
+  color: #fff;
+  background-color: #50AD55;
+}
+
+
+#plate {
+  background-color: #FCFCFC;
+  color: #fff;
+}
+
+#footer {
+  background-color: #5F5F5F;
+  padding: 3rem 0;
+}
+
+/* -----------------------------------------------------------------OUR MISSION PAGE----------------------------------------------------------------- */
+.imgMission {
+  width: 930px;
+  position: absolute;
+  right: 0;
+  bottom:-98px;
+}
+
+.missionTitle {
+  /* margin-bottom: 13.5%; */
+}
+
+.card.cameraCard {
+  margin: 5% 10%;
+  width: 80%;
+  height: auto;
+  padding: 2rem 1.5rem;
+  box-shadow: grey 0.2em 0.2em 0.3em;
+  color: #5F5F5F;
+  background-color: #85BE5B;
+}
+
+.locationTitle {
+  color: white;
+  padding-bottom: 0.8rem;
+}
+
+.cameraLocations {
+  line-height: 2.6;
+}
+
+.safetyIMG {
+  position: relative;
+  left: 0;
+  width: 80%;
+  padding: 2.8rem 0;
+}
+
+.trafficIMG {
+  position: absolute;
+  width: 100%;
+  height: 45.1rem;
+}
+
+.card.trafficCard {
+  margin: 5% 10%;
+  width: 80%;
+  height: auto;
+  padding: 2rem 1.5rem;
+  box-shadow: grey 0.2em 0.2em 0.3em;
+  color: #5F5F5F;
+  background-color: #85BE5B;
+}
+
+.trafficTitle {
+  color: white;
+  padding-bottom: 0.8rem;
+}
+
+.trafficText {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.container-fluid.funding {
+  padding: 6% 5% 4%;
+}
+
+.fundingIMG {
+  width: 100%;
+  margin: 2rem 0 0;
+}
+
+.card.fundingCard {
+  margin: 5% 10%;
+  width: 80%;
+  height: auto;
+  padding: 3rem 1.7rem;
+  box-shadow: #DFDFDF 0.2em 0.2em 0.3em;
+  color: #5F5F5F;
+  background-color: #white;
+}
+
+.fundingTitle {
+  color: #50AD55;
+  padding-bottom: 0.8rem;
+}
+
+.fundingText {
+  font-size: 1.35rem;
+}
+
+/* ---------------FAQs Page------------------- */
+.queryCard {
+  background-color: #FAFAFA;
+  padding: 2% 5% 1%;
+  box-shadow: #DFDFDF 0.2em 0.2em 0.3em;
+  margin: 1.5rem 0;
+}
+
+.faqIMG {
+  text-align: right;
+  float: right;
+  width: 2rem;
+}
+
+.faqTitle {
+  padding-bottom: 3%;
+}
+
+.faqAnswer {
+  color: #5F5F5F;
+  font-size: 1.32rem;
+  padding: 2rem 0 0.5rem;
+  width: 90%
+}
+
+#questions h5 {
+  font-weight: 700;
+  font-size: 1.35rem;
+  color: #5F5F5F;
+}
+
+#questions {
+  margin: 4rem 0;
+}
+
+#map {
+  background-color: #AFAFAF;
+}
+
+#congestion {
+  height: 43rem;
+}
+
+
+
+@media (max-width: 1425px) {
+  p.card-text {
+    font-size: 15px;
+    margin-right: 4%;
+  }
+
+  h5.card-title {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 1352px) {
+  p.card-text {
+    margin-right: 0%;
+  }
+}
+
+@media  (max-width: 1024px){
+  .main {
+    min-height: 100%;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .titleBox {
+    width: 600px;
+    /* display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center; */
+  }
+  .HPimg {
+    width: 720px;
+    bottom:-73px;
+  }
+  .title-msg {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-shadow: #366d39 0.1em 0.1em 0.2em;
+    z-index: 1;
+  }
+
+  .intro-text {
+    margin-top: 1.5em;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .logoTop {
+    width: 350px;
+  }
+
+}
